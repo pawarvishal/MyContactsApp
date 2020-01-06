@@ -11,7 +11,7 @@
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                 "Server = (localdb)\\mssqllocaldb; Database = ContactsData; Trusted_Connection = True; ");
+                 "Server = VPAWAR; Database = ContactsData; Trusted_Connection = True; ");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
